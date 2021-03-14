@@ -1,9 +1,10 @@
 package movie;
 
+import java.io.Serializable;
 import java.sql.Date;
 import java.util.List;
 
-public class Movie {
+public class Movie implements Serializable {
 	private int movieId; 
 	private String movieName;
 	
@@ -91,7 +92,7 @@ public class Movie {
 	public String toString() {
 		return "Movie [movieId=" + movieId + ", movieName=" + movieName + ", movieType=" + movieType + ", language="
 				+ language + ", releaseDate=" + releaseDate + ", casting=" + casting + ", rating=" + rating
-				+ ", totalBusinessDone=" + totalBusinessDone + "]";
+				+ ", totalBusinessDone=" + totalBusinessDone + "]\n";
 	}
 	
 }

@@ -1,0 +1,4 @@
+1,3idiots,U,Hindi,2019-1-1,Amir,5.0,300.0
+2,Vivah,U,Hindi,2017-2-1,Shadid,4.0,20.0
+3,FastAndFurious,U,English,2015-12-23,VinDiesel,4.0,300.0
+4,Palvapalvi,A,Marathi,2010-1-1,Laksha,4.5,300.0
